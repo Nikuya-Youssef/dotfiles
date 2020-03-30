@@ -1,0 +1,7 @@
+# im-config(8) generated on Thu, 13 Feb 2020 00:13:34 +0200
+run_im ibus
+# im-config signature: 4619449b6b33414dc2de88bfde6da2d7  -
+
+# Dash-to-dock hotkeys fix
+ gsettings set org.gnome.shell.extension.dash-to-dock hot-keys false
+ gsettings set org.gnome.shell.extension.dash-to-dock hot-keys true

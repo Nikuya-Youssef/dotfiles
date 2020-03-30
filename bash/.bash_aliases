@@ -1,0 +1,5 @@
+alias open="nautilus ."
+alias sad="sudo apt update"
+alias sag="sudo apt upgrade"
+alias purge="sudo apt autoremove && sudo apt clean"
+alias tlpconfig="sudo nano /etc/default/tlp"
