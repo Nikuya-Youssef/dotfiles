@@ -1,6 +1,10 @@
 [user]
 	name = Youssef
 	email = youssefelgazar2012@gmail.com
-	username = Nikuya-Youssef
+[core]
+	editor = nano
+	excludesfile = ~/.gitignore
 [web]
 	browser = google-chrome
+[credential "https://github.com"]
+	username = Nikuya-Youssef

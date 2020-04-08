@@ -112,14 +112,18 @@
  alias snano="sudo nano"
  alias open="nautilus -w"
  alias sa="sudo apt"
+ alias cp="cp -iv"
  alias purge="sudo apt autoremove && sudo apt clean"
  alias tlpconfig="sudo nano /etc/default/tlp"
  
 # Set custom compdump path.
  compinit -d ~/.config/zsh/zcompdump/.zcompdump
 
-# Disabling creation of zcompdump files from /etc/zsh
+# Disabling creation of zcompdump files from /etc/zsh.
  skip_global_compinit=1
 
-# Syntax Highlighting
+# Syntax Highlighting.
  source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh  
+
+# Run neofetch on startup.
+ neofetch
